@@ -1,10 +1,40 @@
-<div align="center">
-
-  <img src="Screenshot_from_2023-02-12_10-59-25-removebg-preview.png" alt="logo" width="140"  height="auto" />
-  <br/>
-  </div>
-
 <a name="readme-top"></a>
+
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
@@ -28,40 +58,29 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖<a name="about-project">Math magicians</a>
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-- HTML
-- CSS
-- Linters
-- JavaScript
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="">Html</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="">JavaScript</a></li>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href=""></a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
@@ -69,8 +88,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Show Todos]**
-- **[Mark completed Todos]**
+> Describe between 1-3 key features of the application.
+
+- **create app using CRA**
+- **Create SPA**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,7 +101,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link]()
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,9 +109,7 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-> This project will help in mastering the most used static module bundler for modern JavaScript applications.
-
+> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -99,17 +118,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need:
 
 
-Example command:
-
-```sh
-A Web Browser (preferably Google Chrome)
-```
-
-```sh
-A code editor like atom and vscode
-```
-
-### Setup and Started with Create React App
+### Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -150,36 +159,9 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,12 +169,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
+
 👤 **Author1**
 
 - GitHub: [@AbdimulhinYussuf3675](https://github.com/AbdimulhinYussuf3675)
 - Twitter: [@abdimulhin](https://twitter.com/abdimulhin)
 - LinkedIn: [Abdimulhin Adan](https://github.com/AbdimulhinYussuf3675)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +186,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **Save calculated history**
-- [ ] **Convert units**
-- [ ] **Add currency convertion**
+- [ ] **Use hooks**
+- [ ] **Create full website**
+- [ ] **Add calcultion history page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,8 +206,9 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
+> Write a message to encourage readers to support your project
 
->If you like this project please give it star and for contribution to it please contact me.
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,16 +216,32 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to microverse and my colleges at large who helped me on accomplishing this project
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
 
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
