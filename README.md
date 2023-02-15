@@ -6,8 +6,6 @@
   <img src="Screenshot_from_2023-02-12_10-59-25-removebg-preview.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
-
 </div>
 
 <!-- TABLE OF CONTENTS -->
