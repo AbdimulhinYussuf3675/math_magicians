@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import calculate from './logic/calculate';
+import styles from '../styles/calculator.module.css';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0, next: null, operation: null });
@@ -11,11 +12,11 @@ const Calculator = () => {
   const { total, operation, next } = state;
   return (
     <>
-      <section className="calcContainer">
-        <p className="calcText">Lets do some Math!</p>
+      <section className={styles.calcContainer}>
+        <p className={styles.calcText}>Lets do some Math!</p>
 
-        <div className="calc">
-          <section className="screen">
+        <div className={styles.calc}>
+          <section className={styles.screen}>
             <div>
               {total}
               {operation}
@@ -23,75 +24,76 @@ const Calculator = () => {
             </div>
           </section>
 
-          <section className="calc-buttons">
-            <div className="calc-button-row">
-              <button type="button" className="calc-button" onClick={calcultion}>
+          <section className={styles.calc_buttons}>
+            <div className={styles.calc_button_row}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 AC
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 +/-
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 %
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 ÷
               </button>
             </div>
-            <div className="calc-button-row">
-              <button type="button" className="calc-button" onClick={calcultion}>
+            <div className={styles.calc_button_row}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 7
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 8
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 9
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 ×
               </button>
             </div>
-            <div className="calc-button-row">
-              <button type="button" className="calc-button" onClick={calcultion}>
+            <div className={styles.calc_button_row}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 4
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 5
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 6
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 -
               </button>
             </div>
-            <div className="calc-button-row">
-              <button type="button" className="calc-button" onClick={calcultion}>
+            <div className={styles.calc_button_row}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 1
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 2
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 3
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 +
               </button>
             </div>
-            <div className="calc-button-row">
+            <div className={styles.calc_button_row}>
               <button
                 type="button"
-                className="calc-button double"
+                className={styles.calc_button}
+                id={styles.double}
                 onClick={calcultion}
               >
                 0
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 .
               </button>
-              <button type="button" className="calc-button" onClick={calcultion}>
+              <button type="button" className={styles.calc_button} onClick={calcultion}>
                 =
               </button>
             </div>
