@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
 import Nav from './components/Nav';
 import Home from './components/Home';
-import Quotes from './components/Qoute';
+import Quotes from './components/Quote';
 
 import './App.css';
 
